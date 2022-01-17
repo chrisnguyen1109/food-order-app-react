@@ -1,0 +1,31 @@
+.control label {
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30rem;
+    height: 30px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+
+.control p {
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #d34545;
+}
+
+.invalid label {
+    color: #ca3e51;
+}
+
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}

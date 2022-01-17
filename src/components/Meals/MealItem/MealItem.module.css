@@ -1,0 +1,64 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 2.5rem;
+}
+
+.meal h3 {
+    margin: 0 0 0.45rem 0;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.5rem;
+}
+
+.form {
+    text-align: right;
+}
+
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #cd4009;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.form button:hover,
+.form button:active {
+    border-color: #641e03;
+    opacity: 0.9;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input label {
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+.input input {
+    width: 4.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding-left: 0.8rem;
+}
